@@ -1,0 +1,182 @@
+
+html, body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.navbar-brand{
+    border: solid 1px #000!important;
+    padding: 5px 16px;
+}
+.nav-link.active {
+    color: #1F5673!important;}
+  
+.custom-bg-primary{
+    background: #1F5673;
+}
+.custom-text-primary{
+    color: #1F5673;
+   padding-top: 50px;
+}
+header {
+   
+    padding: 10px;
+    position: fixed;
+    top:0;
+    width: 100%;
+    
+}
+
+
+/*index page*/
+.cover{
+    background: url("images/Rectangle 3.png");
+    height: 40vh;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 81px;
+    text-align: center;
+    color: #08344B;
+}
+
+
+.work-with-me{
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 4rem;
+    line-height: 95px;
+    color: #FFFFFF;
+    padding: 12px 60px;
+    position: absolute;
+    z-index: 2;
+}
+.work-with-me-picture{
+    top: 200px;
+    position: absolute;
+    right: 0;
+    border: 20px solid rgba(31, 86, 115, 0.5);
+    border-radius: 140px;
+    z-index: 9;
+}
+.work-with-me-picture img{
+    border-radius: 120px;
+}
+
+.work-with-me-star{
+    position: absolute;
+    right: 0;
+    opacity: 0.5;
+}
+.big-star{
+    position: absolute;
+    left: 0;
+    top: 350px;
+}
+.contact-form{
+    background: #DDE7E4;
+    border-radius: 120px;
+    padding: 64px 64px;
+}
+.form-control{
+    color: white;
+    height: 60px;
+}
+.absoluts-container{
+    height: 100vh;
+}
+label {
+    cursor: pointer;
+    color: #1F5673;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+}
+
+.submit-button{
+    padding: 6px 75px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+}
+.submit-button:hover{
+    background: #194359;
+    color: white;
+}
+/*about me page*/
+
+.about-me-header{
+    border-radius: 54px;
+    padding:17px;
+    background: #DDE7E4;
+    height: 100%;
+    font-size: 18px;
+}
+
+.about-me-header-portfolio{
+    border-radius: 54px;
+    padding:17px;
+    background: #DDE7E4;
+    font-size: 18px;
+    height: 350px;
+}
+.about-me-header-title{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+}
+.about-me-image {
+    height: 100%;
+}
+.about-me-image img{
+    box-shadow: 30px 19px 0px #DDE7E4;
+    border-radius: 28px;
+}
+
+.photography {
+    height: 100%;
+    
+}
+.photography img{
+    border-radius: 28px;
+}
+
+.Chamomile {
+    border-radius: 28px;
+}
+.bg-blue{
+    background: #003399;
+    height: 100%;
+    width: 100%;
+    min-height: 100px;
+    min-width: 100px;
+    border-radius: 156px;
+    border-radius: 156px;
+
+}
+.fav-things-texts{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.my-fav-things-title{
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    color: #08344B;
+}
+
+
+.footer{
+    min-height: 200px;
+}
+
+.footer .star img{
+    width: 150px;
+}
